@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #000000;
+    box-sizing: border-box;
+    color: #F6F6F6;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1% 15% 0 15%;
+}
+
+.cabecalho__logo {
+  width: 280px;
+}
+
+.cabecalho__menu {
+  display: flex;
+  gap: 	80px;
+}
+
+.cabecalho__menu__link {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  color: #22D4FD;
+  text-decoration: none;
+}
+
+.titulo-destaque{
+    color: #22D4FD;
+}
+
+.apresentacao{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 2.8% 15%;
+}
+.apresentacao__conteudo{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 615px;
+}
+
+.apresentacao__conteudo__titulo{
+    font-family: 'Krona One', sans-serif;
+    font-size: 34px;
+}
+
+.apresentacao__conteudo__texto{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+}
+
+.apresentacao__links{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    justify-content: space-between;
+}
+
+.apresentacao__links__subtitulo {
+  font-family: 'krona one', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.apresentacao__links__link{
+  border-radius: 8px;
+  border: 2px solid #22D4FD;
+  color: #F6F6F6;
+  display: flex;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  gap:20px;
+  justify-content: center;
+  margin: 0 10px;
+  padding: 21.5px 0;
+  text-align: center;
+  text-decoration: none;
+  width: 378px;
+}
+
+.apresentacao__links__link:hover{
+    background-color: #272727;
+    cursor: pointer;
+}
+
+.imagem {
+    border-radius: 10px;
+    width: 45%;
+}
+
+
+.rodape {
+  background-color: #22D4FD;
+  color:#000000;
+  font-family: 'ontserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 24px;
+  text-align: center;
+}

@@ -1,0 +1,74 @@
+.base-calculadora {
+	background-color: lightgray;
+	padding: 20px;
+	border-radius: 10px;
+	width: 300px;
+}
+
+.calculadora {
+	grid-template-areas:
+		"ce ce divide multiply"
+		"seven eight nine sub"
+		"four five six add"
+		"one two three add"
+		"zero zero equal equal";
+	gap: 3px;
+	margin-top: 5px;
+}
+
+.visor-calculadora {
+	width: 100%;
+	height: 48px;
+	font-size: 20px;
+	padding: 0 5px;
+	text-align: right;
+}
+
+#btn-0 {
+	grid-area: zero;
+}
+#btn-1 {
+	grid-area: one;
+}
+#btn-2 {
+	grid-area: two;
+}
+#btn-3 {
+	grid-area: three;
+}
+#btn-4 {
+	grid-area: four;
+}
+#btn-5 {
+	grid-area: five;
+}
+#btn-6 {
+	grid-area: six;
+}
+#btn-7 {
+	grid-area: seven;
+}
+#btn-8 {
+	grid-area: eight;
+}
+#btn-9 {
+	grid-area: nine;
+}
+#btn-ce {
+	grid-area: ce;
+}
+#btn-equal {
+	grid-area: equal;
+}
+#btn-divide {
+	grid-area: divide;
+}
+#btn-multiply {
+	grid-area: multiply;
+}
+#btn-sub {
+	grid-area: sub;
+}
+#btn-add {
+	grid-area: add;
+}
